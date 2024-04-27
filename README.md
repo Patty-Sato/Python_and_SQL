@@ -25,6 +25,7 @@ It prompts the user for a student ID, then executes a SELECT * FROM T_PY_ALUNO W
 
 ### Registering a new student: 
 It prompts the user for the student’s details, then executes an INSERT INTO T_PY_ALUNO (nome, idade, endereco, curso) VALUES ('{nome}', {idade}, '{endereco}', '{curso}') query to insert a new record into the T_PY_ALUNO table.
+OBS: nome = name ; idade = age ; endereco = address ; curso = course
 
 ### Updating a student’s information: 
 It prompts the user for a student ID and the new details, then executes an UPDATE T_PY_ALUNO SET nome = '{nome}', idade = {idade}, endereco = '{endereco}', curso='{curso}' WHERE id = {id} query to update the record of the student with the given ID.
