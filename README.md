@@ -41,3 +41,6 @@ If the user chooses option 7, the script imports student data from a CSV file na
 ### Exiting the application:
 If the user chooses option 8, the script sets conexao to False, which causes the loop to exit. It then closes the database connection.
 
+- Performed for the Database Application & Data Science course.
+- Code made in the Replit IDE.
+
